@@ -1,0 +1,14 @@
+table {
+    width: 500px;
+    height: 400px;
+    border-collapse: collapse;  /* grudar ou separar caixas da tabela */
+    
+}
+
+
+td {
+    border: 1px black solid;
+    padding: 10px;
+    text-align: center; /* alinhamento horizontal da célula */
+    vertical-align: middle; /* alinhamento vertical da célula */
+}

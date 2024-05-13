@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/*esttilos gerais*/
+body {
+    font-weight: normal;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 15px;
+    /*margem inicial*/
+}
+
+h1 {
+    text-align: center;
+    text-indent: 15px;
+}
+
+
+
+/*usando o google fontes para importar uma fonte (fontes externas)*/

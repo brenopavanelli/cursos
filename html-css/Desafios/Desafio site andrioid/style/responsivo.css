@@ -1,0 +1,45 @@
+@media screen and (max-width: 1300px) {
+    .opinions {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .opinions p {
+       width: 400px;
+    }
+
+    
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .about {
+        flex-direction: column;
+    }
+    
+    .about img {
+        margin-bottom: 20px;
+    }
+    
+    .opinions {
+        flex-direction: column;
+    }
+
+    .opinions p {
+        width: 100%;
+    }
+
+    .quote {
+        flex-direction: column;
+    }
+
+    .first-panel {
+        height: fit-content;
+        padding-bottom: 25px;
+    }
+    
+    .panel {
+        padding: 0px 50px;
+    }
+}

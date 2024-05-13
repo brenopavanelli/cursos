@@ -1,0 +1,41 @@
+/* Demais versões */
+/* Typical Devices Breakpoints 
+----------------------------------------------------
+    Mobile devices – 320px — 480px.
+    iPads, Tablets – 481px — 768px.
+    Small screens, laptops – 769px — 1024px.
+    Desktops, large screens – 1025px — 1200px.
+    Extra large screens, TV – 1201px, and more.
+*/
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    body {
+        background: black url(../imagens/back-pc.jpg) no-repeat;
+    }
+    .phone { display: none; }
+    .pc { display: block; }
+}
+
+@media print {
+    body {
+        background: black url(../imagens/back-print.jpg) no-repeat;
+    }
+    .phone { display: none; }
+    .print { display: block; }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        background: black url(../imagens/back-tablet.jpg) no-repeat;
+
+    }
+    .phone { display: none; }
+    .tablet { display: block; }
+}
+
+@media screen and (min-width: 1201px) {
+    body {
+        background: black url(../imagens/back-tv.jpg) no-repeat;
+    }
+    .phone { display: none; }
+    .tv { display: block; }
+}

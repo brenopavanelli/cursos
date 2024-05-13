@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de Bhaskara</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Bhaskara</h1>
+    </header>
+    <main>
+        <section>
+            <p>Insira o valor de "a":</p>
+            <input type="number" name="a" id="a">
+            <p>Insira o valor de "b":</p>
+            <input type="number" name="b" id="b">
+            <p>Insira o valor de "c":</p>
+            <input type="number" name="c" id="c">
+            <br>
+            <input id="button" type="button" value="Calcular" onclick="calcular()">
+            <p id="res">Aguarde o resultado</p>
+            <p id="res2"></p>
+        </section>
+        <section class="content">
+            <h2>Como é calculada a fórmula de Bhaskara?</h2>
+            <ol>
+                <li>Identifique os coeficientes: a, b, c na equação quadrática</li>
+                <li>Calcule o discriminante (delta)</li>
+                <li>Verifique o valore de delta:</li>
+                    <ul>
+                        <li>Se <strong>delta > 0</strong>, a equação tem duas raízes reais distintas.</li>
+                        <li>Se <strong>delta = 0</strong>, a equação tem duas raízes reais iguais.</li>
+                        <li>Se <strong>delta < 0</strong>, a equação não tem raízes reais</li>
+                    </ul>   
+                <li>Calcule as raízes</li>
+                <li>Substitua os valores de a, b, c e delta na fórmula de Bhaskara para encontrar as raízes</li>
+            </ol>
+        </section>
+    </main>
+    <footer>
+        <p>&copy Breno Pavanelli</p>
+        <div id="more">
+            <p>See code details on my <a href="" rel="external" target="_blank">GitHub</a></p>
+            <a href="" rel="external" target="_blank"><img src="assets/imgs/icongithub.png" alt="GitHub Logo"></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

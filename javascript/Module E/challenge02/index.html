@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!--Um site que colete o número inicial, final e os passos e exiba no final a trilha de números-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Testes</title>
+</head>
+<body>
+    <header>
+        <h1>Trilha de números</h1>
+    </header>
+    <section>
+        <div id="msg">
+            <p>Início: </p>
+            <input type="number" name="nini" id="nini">
+            <p>Fim: </p>
+            <input type="number" name="nfim" id="nfim">
+            <p>Passos: </p>
+            <input type="number" name="npasso" id="npasso">
+            <br>
+            <input id="button" type="button" value="Começar" onclick="começar()">
+        </div>
+        <div id="resposta">
+            <p id="res"></p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy Breno Pavanelli </p>
+    </footer>
+    
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,80 @@
+nav {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px 0px 5px 0px;
+}
+
+nav > h1 {
+    margin-top: 0px;
+    font-family: "Sixtyfour", sans-serif;
+}
+
+nav > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(117, 117, 117);
+    text-decoration: underline;
+}
+
+.container {
+
+    font-family: "Caveat", cursive;
+    font-size: 1.5em;
+    
+}
+
+.format {
+    padding: 20px 0px 20px 20px;
+    line-height: 2em;
+}
+
+
+
+.basic {
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.473);
+    position: relative;
+}
+
+
+.special {
+    background-image: url("../assets/imgs/nature1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.text-special {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.507);
+    width: 250px;
+    padding: 10px;
+    margin-left: -10px;
+    border-radius: 20px;
+}
+
+#specialtwo {
+    background-image: url("../assets/imgs/nature2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+footer > a {
+    color: white;
+    text-decoration: none;
+}

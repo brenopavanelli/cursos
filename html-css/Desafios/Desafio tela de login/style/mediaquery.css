@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+   section {
+       min-width: 50vw;
+       min-height: fit-content;
+       display: flex;
+   }
+   
+   section > #imagem {
+        width: 40%;
+   }
+
+   section > #formulario {
+        width: 60%;
+}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    section {
+        min-width: 60vw;
+        min-height: fit-content;
+        display: flex;
+    }
+    
+    section > #imagem {
+        width: 50%;
+    }
+ 
+    section > #formulario {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    section {
+        min-width: 70vw;
+        max-height: 60vh;
+        display: flex;
+    }
+    
+    section > #imagem {
+        width: 50%;
+    }
+ 
+    section > #formulario {
+        width: 50%;
+        align-self: center;
+    }
+}

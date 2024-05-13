@@ -1,0 +1,44 @@
+nav {
+    background-color: var(--color5);
+    height: fit-content;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.navbar > img {
+    width: 180px;
+    height: 90px;
+    padding: 0px;
+    
+}
+
+
+.navbar-menu {
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.navbar-menu > a {
+    text-decoration: none;
+    margin: 0px 2px 0px 2px;
+    color: white;
+    font-size: 15px;
+    font-family: var(--normal-font);
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition-duration: 0.5s;
+    padding: 5px;
+}
+
+.navbar-menu > a:hover {
+    background-color: var(--color1);
+    color: var(--color4);
+    border-radius: 5px;
+    padding: 10px;
+}

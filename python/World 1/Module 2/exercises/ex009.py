@@ -1,0 +1,13 @@
+# Script que lê um número e exibe sua tabuáda.
+n = int(input('Digite um número: '))
+print(f'A tabuáda de {n} é: ')
+print(f'{n*1}')
+print(f'{n*2}')
+print(f'{n*3}')
+print(f'{n*4}')
+print(f'{n*5}')
+print(f'{n*6}')
+print(f'{n*7}')
+print(f'{n*8}')
+print(f'{n*9}')
+print(f'{n*10}')

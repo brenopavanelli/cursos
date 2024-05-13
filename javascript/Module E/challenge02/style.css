@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(50, 96, 194);
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    max-width: 500px;
+    min-height: 300px;
+    max-height: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.336);
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+   
+}
+
+footer {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.75em;
+}
+
+#button {
+    margin-top: 10px;
+}
