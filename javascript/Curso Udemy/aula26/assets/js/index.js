@@ -10,7 +10,14 @@ function main() {
         const altura = formulario.querySelector("#altura");
         
         let imc = calcularImc(peso, altura);
-        let lvl = identificarNivel(imc);
+        
+        const nivel = identificarNivel(imc);
+
+        const paragrafo = criarParagrafo();
+        
+        const msg = escreverMensagem(imc, nivel);
+
+        apresentarResultados(paragrafo, msg)
 
     });
 
@@ -28,7 +35,16 @@ function main() {
 
     }
 
-    function apresentarResultados(msg) { resultado.innerHTML = msg; }
+    function criarParagrafo() {
+        const paragrafo = document.createElement('p'); //inicia um elemento p
+        paragrafo.classList.add('paragrafo-resultado')
+        resultado.appendChild(paragrafo); // insere o <p> dentro da div com id #resultado
+        return paragrafo;
+    }
+
+    const escreverMensagem = (imc, nivel) => msg = `O seu IMC é: ${imc} (${nivel})`;
+
+    function apresentarResultados(paragrafo, msg) { paragrafo.innerHTML = msg; console.log('teste')}
 
     
     
