@@ -77,9 +77,7 @@ function main() {
         }
     }
 
-    function adicionarZeroEsquerda(horario) {
-        return horario >= 10 ? horario : `0${horario}`;
-    }
+    
 
 }
 main();
