@@ -10,7 +10,7 @@ Produto.prototype.aumento = function(percentual) {
     this.preco *= (1 + percentual);
 };
 Produto.prototype.desconto = function(percentual) {
-    this.preco *= (1 - percentual);
+    this.preco *= (1 - percentual); 
 };
 
 function Camiseta (nome, preco, estoque, cor, tamanho) {
