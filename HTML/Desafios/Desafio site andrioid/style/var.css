@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=VT323&display=swap');
+
+@font-face {
+    font-family: "Android";
+    src: url(../assets/fontes/idroid.otf) format("opentype");
+    font-weight: normal;
+}
+
+:root {
+    --color1: #76BF2C;
+    --color2: #5E803D;
+    --color3: #68953B;
+    --color4:  #37402F;
+    --color5: #30332E;
+    
+    --normal-font: Arial, Verdana, Helvetica, sans-serif;
+    --contrast-font: 'Bebas Neue', sans-serif;
+    --special-font: 'Android', sans-serif;
+}

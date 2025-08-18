@@ -1,0 +1,67 @@
+/*nth-child(2n) efeito zebrado */
+/*
+cabeçalho fixo
+
+table {
+    position: relative;
+}
++
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: gray;
+}
+
+para manter o cabeçalho colado na tela até o final da tabela, muito útil para tabelas grandes com rolagem vertical
+*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+caption {
+    font-size: 1.5em;
+    background-color: gray;
+    border-top: 1px black solid;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+    color: white;
+    padding: 12px;
+    text-transform: uppercase;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+    position: relative;
+}
+
+td, th {
+    border: 1px black solid;
+    padding: 10px;
+}
+
+thead {
+    background-color: gray;
+    color: white;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: gray;
+}
+
+tbody > tr:nth-child(2n){
+    background-color: rgb(204, 204, 204);
+}
+
+tfoot {
+    background-color: gray;
+    color: white;
+}
+
+.num {
+    text-align: right;
+    width: 100px;
+}

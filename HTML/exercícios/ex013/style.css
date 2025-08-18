@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(178, 255, 178);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1 {
+    color: green;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+p {
+    font-size: 1em;
+}
+
+#principal {
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+/*id é #, class é */
+
+.textobase {
+    background-color: rgb(1, 77, 1);
+    color: white;
+    font-style: italic;
+    text-align: center;
+}

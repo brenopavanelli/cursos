@@ -1,0 +1,24 @@
+@media (min-width: 720px)  {
+    header > div {
+        display: none;
+    }
+
+
+
+    #itens {
+        display: block;
+        
+    }
+
+    menu ul {
+        display: flex;
+        justify-content: space-around;
+        background-color: gray;
+        list-style: none;
+        text-align: center;
+    }
+
+    menu a {
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/* estilo para impressoras */ 
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

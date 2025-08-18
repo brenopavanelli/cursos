@@ -1,0 +1,34 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+table{
+    width: 400px;
+    border-collapse: collapse;
+}
+caption {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+td , th {
+    border: 1px black solid;
+    padding: 10px;
+    text-align: center;
+}
+
+#container {
+    overflow-x: auto;
+}
+
+/* 
+#container {
+    overflow-x: auto;
+} 
+
+Serve para dar responsividade para uma tabela, criando uma rolagem lateral exclusiva, enquanto o conteúdo principal se mantém fixo
+*/
