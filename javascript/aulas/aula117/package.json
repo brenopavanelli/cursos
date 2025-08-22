@@ -1,9 +1,9 @@
 {
-  "name": "aula116",
+  "name": "aula117",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "gera": "webpack -w"
+    "dev": "webpack -w"
   },
   "keywords": [],
   "author": "",
