@@ -53,7 +53,7 @@ class Cpf {
   
 }
 
-const cpf1 = new Cpf('123.456.789-05');
+const cpf1 = new Cpf('638.842.612-31');
 const cpf2 = new Cpf('705.484.450-52');
 const cpf3 = new Cpf('070.987.720-03');
 const cpf4 = new Cpf('025.456.789-01');
