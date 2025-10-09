@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/brenopavanelli/cursos/issues"
   },
-  "homepage": "https://github.com/brenopavanelli/cursos#readme"
+  "homepage": "https://github.com/brenopavanelli/cursos#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
