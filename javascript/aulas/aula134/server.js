@@ -5,6 +5,8 @@ const path = require('path');
 
 app.use(express.urlencoded({ extends: true }));
 
+app.use(express.static(path.resolve(__dirname, 'public')));
+
 app.set('views', path.resolve(__dirname, 'src', 'views'));
 app.set('view engine', 'ejs'); // Existem vários motores de template, o EJS é um deles que mais se aproxima do HTML puro
 
