@@ -1,5 +1,18 @@
+require('dotenv').config();
+
 const express = require('express');
 const app = express();
+
+const mongoose = require('mongoose');
+mongoose.connect(process.env.CONNECTION_STRING)
+    .then(() => {
+        console.log('Conectado ao MongoDB');
+        app.emit('pronto'); // Emitindo o evento pronto
+    })
+    .catch((err) => {
+        console.log('Erro ao conectar ao MongoDB:', err);
+    });
+
 const routes = require('./routes');
 const path = require('path');
 const globalMiddleware = require('./src/middlewares/globalMiddleware');
